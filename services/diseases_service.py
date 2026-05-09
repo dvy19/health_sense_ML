@@ -1,6 +1,6 @@
-import pandas as pd
+import pandas as pd 
 
-df = pd.read_csv("indian_diseases_dataset.csv")
+df = pd.read_csv("data/indian_diseases_dataset.csv")
 
 def get_top_5_diseases_by_state(state_name):
     state_df = df[df['state'].str.lower() == state_name.lower()]
