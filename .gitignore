@@ -1,3 +1,0 @@
-# Ignore dataset files
-data/indian_diseases_dataset.csv
-data/*.csv
